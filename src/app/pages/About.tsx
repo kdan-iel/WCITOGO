@@ -39,13 +39,13 @@ export function About() {
     {
       name: 'Bishop David O. OYEDEPO',
       title: { en: 'President and founder', fr: 'Président et fondateur' },
-      image: 'src/assets/oyedepo1.png',
+      image: 'assets/oyedepo1.png',
       bio: { en: 'Leading Winners Chapel with vision according to the word of God', fr: 'Dirigeant Winners Chapel avec vision et selon la parole de Dieu' }
     },
     {
       name: 'Pastor Mike CHUKWUDI',
       title: { en: 'Resident Pastor', fr: 'Pasteur résident' },
-      image: 'src/assets/chukwudi3.png',
+      image: 'assets/chukwudi3.png',
       bio: { en: 'He is the resident pastor of Winners Chapel Lome airport', fr: 'Il est le pasteur résident de Winners Chapel Lome airport' }
     }
   ];
@@ -117,7 +117,7 @@ export function About() {
               className="relative h-96 rounded-xl overflow-hidden shadow-2xl"
             >
               <img
-                src="src/assets/oyedepo3.png"
+                src="assets/oyedepo3.png"
                 alt="Mission"
                 className="w-full h-full object-cover"
               />
@@ -135,7 +135,7 @@ export function About() {
               className="order-2 md:order-1 relative h-96 rounded-xl overflow-hidden shadow-2xl"
             >
               <img
-                src="src/assets/vision1.jpg"
+                src="assets/vision1.jpg"
                 alt="Vision"
                 className="w-full h-full object-cover"
               />
