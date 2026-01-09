@@ -1,10 +1,6 @@
 import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Target, Eye, Heart, Award, Users, BookOpen } from 'lucide-react';
-import oyedepo1 from '@/assets/oyedepo1.png';
-import chukwudi3 from '@/assets/chukwudi3.png';
-import oyedepo3 from '@/assets/oyedepo3.png';
-import vision1 from '@/assets/vision1.jpg';
 
 export function About() {
   const { t } = useLanguage();
@@ -43,13 +39,13 @@ export function About() {
     {
       name: 'Bishop David O. OYEDEPO',
       title: { en: 'President and founder', fr: 'Président et fondateur' },
-      image: oyedepo1,
+      image: '/assets/oyedepo1.png',
       bio: { en: 'Leading Winners Chapel with vision according to the word of God', fr: 'Dirigeant Winners Chapel avec vision et selon la parole de Dieu' }
     },
     {
       name: 'Pastor Mike CHUKWUDI',
       title: { en: 'Resident Pastor', fr: 'Pasteur résident' },
-      image: chukwudi3,
+      image: '/assets/chukwudi3.png',
       bio: { en: 'He is the resident pastor of Winners Chapel Lome airport', fr: 'Il est le pasteur résident de Winners Chapel Lome airport' }
     }
   ];
@@ -121,7 +117,7 @@ export function About() {
               className="relative h-96 rounded-xl overflow-hidden shadow-2xl"
             >
               <img
-                src={oyedepo3}
+                src={'/assets/oyedepo3.png'}
                 alt="Mission"
                 className="w-full h-full object-cover"
               />
@@ -139,7 +135,7 @@ export function About() {
               className="order-2 md:order-1 relative h-96 rounded-xl overflow-hidden shadow-2xl"
             >
               <img
-                src={vision1}
+                src={'/assets/vision1.jpg'}
                 alt="Vision"
                 className="w-full h-full object-cover"
               />

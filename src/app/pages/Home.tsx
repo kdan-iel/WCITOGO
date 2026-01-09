@@ -2,9 +2,6 @@ import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Calendar, Play, Book, Heart, Users, Church } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import children1 from '@/assets/children1.jpg';
-import jeune1 from '@/assets/jeune1.jpg';
-import wofbi1 from '@/assets/wofbi1.jpg';
 
 
 export function Home() {
@@ -22,19 +19,19 @@ export function Home() {
       title: { en: 'Children Ministry', fr: 'Ministère des Enfants' },
       description: { en: 'Building strong foundations in Christ', fr: 'Construire des fondations solides en Christ' },
       icon: Heart,
-      image: children1
+      image: '/assets/children1.jpg'
     },
     {
       title: { en: 'Youth Alive', fr: 'Jeunesse Vivante' },
       description: { en: 'Empowering the next generation', fr: 'Autonomiser la prochaine génération' },
       icon: Users,
-      image: jeune1
+      image: '/assets/jeune1.jpg'
     },
     {
       title: { en: 'WOFBI', fr: 'IBPF' },
       description: { en: 'The Word Of faith Bible Institute', fr: 'L\'Institut Biblique de la Parole de la foi' },
       icon: Book,
-      image: wofbi1
+      image: '/assets/wofbi1.jpg'
     }
   ];
 

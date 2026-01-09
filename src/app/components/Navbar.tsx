@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { Languages, Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import logo from '@/assets/logo.png';
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,7 +42,7 @@ export function Navbar() {
           <Link to="/" className="flex items-center space-x-3 group">
             {/* */ <motion.img
               whileHover={{ scale: 1.05 }}
-              src={logo}
+              src={'/assets/logo.png'}
               alt="Winners Chapel Lomé"
               className="h-16 w-auto"
             />}
