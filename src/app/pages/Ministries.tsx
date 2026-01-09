@@ -1,6 +1,11 @@
 import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Baby, Users, Flame, Home, GraduationCap } from 'lucide-react';
+import wofbi2 from '@/assets/wofbi2.jpg';
+import children1 from '@/assets/children1.jpg';
+import jeune2 from '@/assets/jeune2.jpg';
+import jeune1 from '@/assets/jeune1.jpg';
+import cell1 from '@/assets/cell1.jpg';
 
 export function Ministries() {
   const { t } = useLanguage();
@@ -26,7 +31,7 @@ export function Ministries() {
         fr: 'Chaque dimanche pendant le service principal, les enfants apprennent des histoires bibliques, mémorisent les Écritures et apprennent à adorer Dieu avec joie.'
       },
       schedule: { en: 'Sundays 6:30 AM & 8:30 AM', fr: 'Dimanches 6h30 & 8h30' },
-      image: '/assets/children1.jpg',
+      image: children1,
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -42,7 +47,7 @@ export function Ministries() {
         fr: 'Adoration axée sur les ados, enseignement biblique pertinent et activités de communion amusantes conçues pour aider les ados à grandir dans leur foi et dans l\'église.'
       },
       schedule: { en: 'Sundays 6:30 AM', fr: 'Dimanches 6h30' },
-      image: '/assets/jeune2.jpg',
+      image: jeune2,
       color: 'from-purple-500 to-purple-600'
     },
     {
@@ -58,7 +63,7 @@ export function Ministries() {
         fr: 'Adoration dynamique, enseignement pratique pour la vie quotidienne, orientation professionnelle, conseil relationnel et sensibilisation communautaire.'
       },
       schedule: { en: 'Every two Sundays 5:00 PM', fr: 'Chaque deux Dimanches 17h00' },
-      image: '/assets/jeune1.jpg',
+      image: jeune1,
       color: 'from-red-500 to-red-600'
     },
     {
@@ -74,7 +79,7 @@ export function Ministries() {
         fr: 'Rejoignez une cellule de maison dans votre quartier. Vivez une véritable communauté, recevez un soutien en prière et grandissez ensemble en Christ. Obtenez plus d\'informations à la librairie de l\'église.'
       },
       schedule: { en: 'Saturdays 5:00 PM - 6:00 PM', fr: 'Samedis 17h00 - 18h00' },
-      image: '/assets/cell1.jpg',
+      image: cell1,
       color: 'from-green-500 to-green-600'
     },
     {
@@ -90,7 +95,7 @@ export function Ministries() {
         fr: 'Brevet de Base (BCC), Brevet de Leadership (LCC), Diplôme de Leadership (LDC) et Ecole Biblique Jeunesse (JBS) pour les enfants.'
       },
       schedule: { en: 'Scheduled by the Institute', fr: 'Programmé par l\'Institut' },
-      image: '/assets/wofbi2.jpg',
+      image: wofbi2,
       color: 'from-amber-500 to-amber-600'
     }
   ];
