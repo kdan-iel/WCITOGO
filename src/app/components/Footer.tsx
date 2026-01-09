@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import logo from '@/assets/logo.png';
 
 export function Footer() {
   const { t } = useLanguage();
@@ -21,7 +20,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="space-y-4">
-            <img src={logo} alt="Winners Chapel Lomé" className="h-16 w-auto" />
+            <img src="/assets/logo.png" alt="Winners Chapel Lomé" className="h-16 w-auto" />
             <p className="text-gray-400 text-sm leading-relaxed">
               {t(
                 'A living church where faith, hope, and love come alive. Join us as we worship together.',
