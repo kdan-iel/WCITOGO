@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Baby, Users, Flame, Home, GraduationCap } from 'lucide-react';
-
+// Images served from `public/assets` — use absolute public paths
 
 export function Ministries() {
   const { t } = useLanguage();

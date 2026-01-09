@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Target, Eye, Heart, Award, Users, BookOpen } from 'lucide-react';
+// Images served from public/assets — use absolute public paths
 
 export function About() {
   const { t } = useLanguage();

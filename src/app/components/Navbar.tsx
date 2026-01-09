@@ -40,12 +40,13 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            {/* */ <motion.img
+            {/* Logo image served from public/assets */}
+            <motion.img
               whileHover={{ scale: 1.05 }}
-              src={'/assets/logo.png'}
+              src="/assets/'/assets/logo.png'.png"
               alt="Winners Chapel Lomé"
               className="h-16 w-auto"
-            />}
+            />
             <div className="hidden md:block">
               <div className="font-bold text-xl text-black">Winners Chapel</div>
               <div className="text-sm text-gray-600">Lomé, Togo</div>

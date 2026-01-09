@@ -20,7 +20,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="space-y-4">
-            <img src={'/assets/logo.png'} alt="Winners Chapel Lomé" className="h-16 w-auto" />
+            <img src="/assets/'/assets/logo.png'.png" alt="Winners Chapel Lomé" className="h-16 w-auto" />
             <p className="text-gray-400 text-sm leading-relaxed">
               {t(
                 'A living church where faith, hope, and love come alive. Join us as we worship together.',

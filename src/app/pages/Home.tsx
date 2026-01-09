@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Calendar, Play, Book, Heart, Users, Church } from 'lucide-react';
 import { Link } from 'react-router-dom';
+// Images are served from `public/assets` — use absolute public paths
 
 
 export function Home() {
