@@ -1,10 +1,10 @@
 import { motion } from 'motion/react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Target, Eye, Heart, Award, Users, BookOpen } from 'lucide-react';
-import oyedepo1 from '/assets/oyedepo1.png';
-import chukwudi3 from '/assets/chukwudi3.png';
-import oyedepo3 from '/assets/oyedepo3.png';
-import vision1 from '/assets/vision1.jpg';
+import oyedepo1 from '@/assets/oyedepo1.png';
+import chukwudi3 from '@/assets/chukwudi3.png';
+import oyedepo3 from '@/assets/oyedepo3.png';
+import vision1 from '@/assets/vision1.jpg';
 
 export function About() {
   const { t } = useLanguage();
