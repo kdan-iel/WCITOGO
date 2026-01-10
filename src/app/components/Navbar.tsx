@@ -43,7 +43,7 @@ export function Navbar() {
             {/* Logo image served from public/assets */}
             <motion.img
               whileHover={{ scale: 1.05 }}
-              src="/assets/'/assets/logo.png'.png"
+              src="/assets/logo.png"
               alt="Winners Chapel Lomé"
               className="h-16 w-auto"
             />
