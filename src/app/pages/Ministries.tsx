@@ -26,7 +26,7 @@ export function Ministries() {
         en: 'Every Sunday during main service, children are taught Bible stories, memorize Scripture, and learn to worship God with joy.',
         fr: 'Chaque dimanche pendant le service principal, les enfants apprennent des histoires bibliques, mémorisent les Écritures et apprennent à adorer Dieu avec joie.'
       },
-      schedule: { en: 'Sundays 6:30 AM & 8:30 AM', fr: 'Dimanches 6h30 & 8h30' },
+      schedule: { en: 'On Sundays 6:30 AM & 8:30 AM', fr: 'Dimanches 6h30 & 8h30' },
       image: '/assets/children1.jpg',
       color: 'from-blue-500 to-blue-600'
     },
