@@ -9,6 +9,8 @@ import { Ministries } from './pages/Ministries';
 import { Media } from './pages/Media';
 import { Give } from './pages/Give';
 import { Contact } from './pages/Contact';
+import { Events } from './pages/Events';
+import { Testimonies } from './pages/Testimonies';
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
               <Route path="/media" element={<Media />} />
               <Route path="/give" element={<Give />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/testimonies" element={<Testimonies />} />
             </Routes>
           </main>
           <Footer />
